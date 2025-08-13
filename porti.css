@@ -11,55 +11,36 @@
     --font-main: Arial, sans-serif;
     --transition: 0.3s ease;
     --scale-hover: scale(1.05);
-    --hover-up: translateY(-5px);
-}
-
+    --hover-up: translateY(-5px);}
 * {
-    transition: color var(--transition), background-color var(--transition), transform var(--transition);
-}
-
+    transition: color var(--transition), background-color var(--transition), transform var(--transition);}
 body {
     font-family: var(--font-main);
     margin: 0;
     background: var(--bg-color);
-    color: var(--text-color);
-}
-
+    color: var(--text-color);}
 header, footer {
     text-align: center;
     padding: 20px;
     background: var(--header-bg);
-    color: var(--header-text);
-}
-
+    color: var(--header-text);}
 header h1:hover, section h2:hover, a:hover {
-    color: var(--hover-color);
-}
-
+    color: var(--hover-color);}
 header .links a {
     margin: 0 10px;
     text-decoration: none;
-    color: var(--link-color);
-}
-
+    color: var(--link-color);}
 header .links a:hover {
-    transform: var(--scale-hover);
-}
-
+    transform: var(--scale-hover);}
 section {
     padding: 20px;
     background: var(--card-bg);
     margin: 20px auto;
     max-width: 800px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px var(--card-shadow);
-}
-
+    box-shadow: 0 2px 5px var(--card-shadow);}
 section:hover {
-    transform: var(--hover-up);
-}
-
+    transform: var(--hover-up);}
 ul {
     list-style-type: decimal;
-    padding-left: 20px;
-}
+    padding-left: 20px;}
